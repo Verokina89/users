@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -8,6 +9,33 @@ body {
 h1 {
   text-align: center;
   color: #333;
+  margin-bottom: 30px;
 }
+
+.listaUsuarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.imageanduser {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.imageanduser img {
+  width: 120px;
+}
+
+
+li p {
+  margin-bottom: 5px;
+}
+
+
 
 
